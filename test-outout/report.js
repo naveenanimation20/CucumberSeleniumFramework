@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/NaveenKhunteta/Documents/workspace/FreeCrmBDDFramework/src/main/java/Features/deals.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/NaveenKhunteta/Documents/workspace/FreeCrmBDDFramework/src/main/java/Features/dealsmap.feature");
 formatter.feature({
   "line": 1,
   "name": "Deal data creation",
@@ -30,104 +30,138 @@ formatter.step({
   "rows": [
     {
       "cells": [
+        "username",
+        "password"
+      ],
+      "line": 8
+    },
+    {
+      "cells": [
         "naveenk",
         "test@123"
       ],
-      "line": 8
+      "line": 9
     }
   ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "user clicks on login button",
   "keyword": "Then "
 });
 formatter.step({
   "line": 11,
-  "name": "user is on home page",
+  "name": "user clicks on login button",
   "keyword": "Then "
 });
 formatter.step({
   "line": 12,
-  "name": "user moves to new deal page",
+  "name": "user is on home page",
   "keyword": "Then "
 });
 formatter.step({
   "line": 13,
+  "name": "user moves to new deal page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 14,
   "name": "user enters deal details",
   "rows": [
     {
       "cells": [
-        "test deal",
+        "title",
+        "amount",
+        "probability",
+        "commission"
+      ],
+      "line": 15
+    },
+    {
+      "cells": [
+        "test deal1",
         "1000",
         "50",
         "10"
       ],
-      "line": 14
+      "line": 16
+    },
+    {
+      "cells": [
+        "test deal2",
+        "2000",
+        "60",
+        "20"
+      ],
+      "line": 17
+    },
+    {
+      "cells": [
+        "test deal3",
+        "3000",
+        "70",
+        "30"
+      ],
+      "line": 18
     }
   ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 15,
+  "line": 20,
   "name": "Close the browser",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DealStepDefnition.user_already_on_login_page()"
+  "location": "DealsStepWithMapDefinition.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 6089621796,
+  "duration": 7357144816,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealStepDefnition.title_of_login_page_is_free_CRM()"
+  "location": "DealsStepWithMapDefinition.title_of_login_page_is_free_CRM()"
 });
 formatter.result({
-  "duration": 17054204,
+  "duration": 16432106,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealStepDefnition.user_enters_username_and_password(DataTable)"
+  "location": "DealsStepWithMapDefinition.user_enters_username_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 659005579,
+  "duration": 801418561,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealStepDefnition.user_clicks_on_login_button()"
+  "location": "DealsStepWithMapDefinition.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 7900589883,
+  "duration": 4104505697,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealStepDefnition.user_is_on_hopme_page()"
+  "location": "DealsStepWithMapDefinition.user_is_on_hopme_page()"
 });
 formatter.result({
-  "duration": 62790322,
+  "duration": 9077020,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealStepDefnition.user_moves_to_new_contact_page()"
+  "location": "DealsStepWithMapDefinition.user_moves_to_new_deals_page()"
 });
 formatter.result({
-  "duration": 1567766159,
+  "duration": 1919033763,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealStepDefnition.user_enters_contacts_details(DataTable)"
+  "location": "DealsStepWithMapDefinition.user_enters_contacts_details(DataTable)"
 });
 formatter.result({
-  "duration": 762650735,
+  "duration": 9351759655,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealStepDefnition.close_the_browser()"
+  "location": "DealsStepWithMapDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 81356815,
+  "duration": 137983027,
   "status": "passed"
 });
 });
