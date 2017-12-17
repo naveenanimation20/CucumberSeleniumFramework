@@ -1,10 +1,20 @@
 package stepDefinitions;
 
 import cucumber.api.PendingException;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 
 public class TaggingStepDefinition {
-	
+//	@Before
+//    public void beforeScenario(){
+//        System.out.println("This will run before the Scenario");
+//    }	
+//	
+//	@After
+//    public void afterScenario(){
+//        System.out.println("This will run after the Scenario");
+//    }
 	
 	@Given("^This is a valid login test$")
 	public void this_is_a_valid_login_test() {
